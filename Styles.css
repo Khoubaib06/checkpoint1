@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+nav {
+    background-color: black;
+    color: aliceblue;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: end;
+    padding: 0 15;
+    align-items: center;
+}
+
+a:active {
+    color: yellow;
+}
+a:visited {
+    color: violet;
+}
+div :hover {
+    color: green;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.box {
+    border-radius: 15px;
+    background-color: rgb(252, 188, 252);
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    border: 3px solid navy;
+    width: 20rem;
+}
+#products {
+    margin: 3px solid rgb(230, 148, 148);
+    border-radius: 10px;
+}
+#disover_button {
+    align-content: center;
+    justify-content: center;
+}

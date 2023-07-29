@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1 {
+          color: darkblue;
+          font: sans-serif;
+        }
+        h2 {
+            color: blue;
+            font: sans-serif;
+        }
+        p {
+          font: small;
+        }
+        button {
+            background-color:violet;
+            color: darkblue;
+            border: 1px darkblue;
+        }
+    </style>
+    <title>Portfoli Website Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav> 
+        <img src="web" alt="Logo">
+        <ul class="navbar"> 
+            <li><a href="Home">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Work.html">Work</a></li>
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+<Main>
+    <div>
+        <h1>I'm the web developer you need</h1>
+        <p>Experienced Web developer with <b>20+ websites created</b></p>
+        <button type="button">My Portfolio</button> <button onclick="playAudio()"> Testemonials</button>
+        <audio id="Motion.mp3.mp3">
+        <source src="C:\Users\khoub\Downloads\Motion.mp3.mp3" type="audio/mpeg" alt="webaudio">
+        Your browser does not support the audio element.
+        </audio>
+        <script>
+            function playAudio() {
+                var audio = document.getElementById("Motion.mp3.mp3");
+                audio.play();
+            }
+        </script>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h2><b>Trusted by</b></h2>
+            <p>Here are some of the campagnies that trusted me and i worked with them</p><br>
+        </div>
+        <div class="box">
+            <h2><b>Services</b></h2>
+            <p>I can do all type of websites for e-commerce or blogs. <br>
+                Your website will be ready within 2 weeks, and it depends on the complexity of the website</p>
+        </div>
+        <div class="box">
+            <h2><b>Why having a website</b></h2>
+            <p>Nowdays websites is what allows customers to reach you</p>
+    </div>
+</div>
+<div><button id="discover_button" type="button"><b>Discover</b></button>
+</div>
+    <div>
+        <table id="products">
+            <tr>
+                <th>Site</th>
+                <th>Tarif</th>
+            </tr>
+            <tr>
+                <td>E-commerce</td>
+                <td>2000DT</td>
+            </tr>
+            <tr>
+                <td>Site vitrine</td>
+                <td>1000</td>
+            </tr>
+        </table>
+    </div>
+
+</Main>
+<footer>
+    <nav>
+        <ul class="navbar">
+            <li><a href="About us">About us</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="Projects">Projects</a></li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>
